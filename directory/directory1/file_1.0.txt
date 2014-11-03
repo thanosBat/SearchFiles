@@ -1,0 +1,11 @@
+1. Testing terminology
+1.1. Unit tests and unit testing
+A unit test is a piece of code written by a developer that executes a specific 
+functionality in the code to be tested. The percentage of code which is tested by unit tests 
+is typically called test coverage.
+
+A unit test targets a small unit of code, e.g., a method or a class, (local tests).
+
+Unit tests ensure that code works as intended. They are also very helpful to ensure that the code still 
+works as intended in case you need to modify code for fixing a bug or extending functionality. Having a high 
+test coverage of your code allows you to continue developing features without having to perform lots of manual tests.

@@ -1,0 +1,10 @@
+1.5. Behavior vs. state testing
+A test is an behavior test (also called interaction test) if it does not validate 
+the result of a method call, but checks if certain methods were called with the correct input parameters.
+
+State testing is about validating the result, while behavior testing is about testing the 
+behavior of the application under test.
+
+If you are testing algorithms or system functionality, you you want to test in most cases state and not 
+interactions. A typical test setup uses mocks or stubs of related classes to abstract the interactions with 
+these other classes away and tests state in the object which is tested.
